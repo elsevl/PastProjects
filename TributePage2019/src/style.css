@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #E8E8E8;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2658a8;
+  text-decoration: none;
+}
+
+a:hover {
+ color: white; 
+}
+
+.header, #footer { 
+  text-align: center;
+  background-color: #B8B8B8;
+  padding: 1px;
+  height: auto;
+}
+
+.header {
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+}
+
+#title {
+  font-family: 'Meddon', cursive;
+  font-size: 50px;
+}
+
+.img-container {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.img-div {
+  display: inline-block;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  border: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+}
+
+#img-caption {
+  font-weight: bold;
+}
+
+#tribute-info {
+  width: 90%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.section-title {
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  padding: 1px;
+  width: 400px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+@media(max-width: 500px) {
+  .section-title{
+    width: 100%;
+  }
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "title1 books1"
+    "title2 books2";
+  width: 90%;
+  height: min-content;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+#bibliography-title  {
+  grid-area: header;
+  text-align: center;
+}
+
+#harry-potter-title {
+  grid-area: title1;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#other-works-title {
+  grid-area: title2;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#books1 {
+  grid-area: books1;
+}
+
+#books2 {
+  grid-area: books2;
+}
+
+ul {
+  list-style: square;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.charitable-works-grid {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  width: 90%;
+  height: min-content;
+  margin: auto;
+}
+
+.charitable-works-title {
+  text-align: center;
+}
+
+.row-item {
+  text-align: justify;
+  justify-items: start;
+}
+
+#footer {
+  margin-top: 1em;
+  border-top: 1px solid black;
+}
