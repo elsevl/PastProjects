@@ -1,0 +1,109 @@
+
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Raleway" rel="stylesheet">
+  </head>
+  <body>
+   
+    <!-- Header with name -->
+    
+      <div class="container-fluid text-center span12" id="header">
+        <h1 id="name">Joanne "JK" Rowling</h1>
+        <h3>Author and Philanthropist</h3>
+    </div>
+      
+    <!-- Header picture -->
+    <div class="container span12">
+      <div class="row">
+        <div class="col-xs-12">
+        <img src="http://urbanette.com/wp-content/uploads/2013/11/JK-Rowling-interview.jpg" class="img-rounded center-block img-responsive" alt="Picture of JK Rowling">
+      </div>
+    </div>
+    </div>
+     
+ <!-- Intro paragraph -->      
+   <div class="container" id="intro">
+     <div class="row">
+    <div class="well center-block col-xs-12 col-sm-12">
+        <p>
+          JK Rowling is a British author best known for writing the world-renowned Harry Potter book series. Throughout her literary career, she has also published adult fiction novels under the pseudonym Robert Galbraith. Her books have been recreated into movies and television shows. All 7 books in the Harry Potter series are within the top 20 list of best-selling books of all time (<a href="https://en.wikipedia.org/wiki/List_of_best-selling_books" target="_blank">Wikipedia</a>). 
+         <br> Due to her literary successes, Rowling accrued wealth worth over $1,000,000,000 beginning in the early 2000s. She regularly donates millions of dollars of her personal money to charities.
+        </p>
+      </div>
+    </div>
+    </div>
+  
+    <!-- Section 1- Harry Potter -->
+    
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <div class="box text-center align-top"><h3>Bibliography</h3></div>
+            </div>   
+         <div class="col-xs-12 col-sm-8 well">
+          <ul class="Harry-Potter">
+            <h3>Harry Potter series (1997 - )</h3>
+            <li>Harry Potter and the Philosopher's Stone (1997)</li>
+            <li>Harry Potter and the Chamber of Secrets (1998)</li>
+            <li>Harry Potter and the Prisoner of Azkaban (1999)</li>
+            <li>Harry Potter and the Goblet of Fire (2000)</li>
+            <li>Quidditch Through the Ages (2001)</li>
+            <li>Fantastic Beasts and Where to Find Them (2001)</li>
+            <li>Harry Potter and the Order of the Phoenix (2003)</li>
+            <li>Harry Potter and the Half-Blood Prince (2005)</li>
+            <li>Harry Potter and the Deadly Hallows (2007)</li>
+            <li>The Tales of Beetle the Bard (2007)</li>
+            <li>Harry Potter: The Prequel (Harry Potter, #0.5) (2008)</li>
+            <li>The Hogwarts Library (2012)</li>
+            <li>Ilvermorny School of Witchcraft and Wizardry (2016)</li>
+            <li>Hogwarts: An Incomplete and Unreliable Guide (2016)</li>
+            <li>Short Stories from Hogwarts of Heroism, Hardship, and Dangerous Hobbies (2016)</li>
+            <li>Short Stories from Hogwarts of Power, Politics, and Pesky Poltergeists (2016)</li>
+            <li>Harry Potter- A History of Magic: The Book of Exhibition (expected 2017)</li>
+          </ul>
+   
+           <!-- Section 2- Other published works -->
+           
+          <ul class="later-works">
+            <h3>Other published works (2012- )</h3>
+            <li>The Casual Vacancy (2012)</li>
+            <li>The Cuckoo's Calling (Cormoran Strike, #1) (2013)</li>
+            <li>The Silkworm (Cormoran Strike, #2) (2014) </li>
+            <li>Career of Evil (Cormoran Strike, #3) (2015)</li>
+            <li>Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination (2015)</li>
+            <li>Fantastic Beasts and Where to Find Them: The Original Screenplay (2016)</li>
+            <li>Lethal White (Cormoran Strike, #4) (expected 2018)</li>
+          </ul>
+        </div>
+    </div>
+      </div>
+      
+  
+    <!-- Section 3- Charity work -->
+    
+        <div class="container">
+          <div class="row side-text">
+            <div class="col-xs-12 col-sm-4">
+              <div class="box align-top text-center"><h3>Charitable Works</h3></div>
+            </div>
+            <div class="col-xs-12 col-sm-8 well">
+                <p>In addition to being a best-selling author, JK Rowling has donated a significant amount of her wealth to charitable foundations she either supports or established herself. Rowling became a billionaire in 2004; however, she fell off the Forbes billionaire list in 2012 having donated 16% of her wealth ($160,000,000) to charities the previous year. Below are four charities that Rowling has focused her efforts on:</p>
+                <ul>
+                  <li><a href="http://annerowlingclinic.com/" target="_blank">Anne Rowling Regenerative Neurology Clinic</a>- The clinic is a medical research facility located at the University of Edinburgh focusing on the treatment of degenerative neurological conditions, such as multiple sclerosis, ALS, and Parkinson's Disease. The clinic is named after Rowling's mother, who passed away from multiple sclerosis in 1990. In 2010, Rowling donated $10,000,000 to the University of Edinburgh to establish the clinic in her mother's name.</li>
+                  <li><a href="https://www.comicrelief.com/" target="_blank">Comic Relief</a>- A charity located in the UK whose mission is to eliminate poverty through the power of entertainment. The organization raises money through high-profile campaigns such as school fundraisers, telethons and the world-famous Red Nose Day.</li>
+                  <li><a href="https://www.gingerbread.org.uk/" target="_blank">Gingerbread</a>- A charity located in the UK whose focus is assisting single parents through providing information, advice, and services. Rowling was the charity's first ambassador beginning in 2000, before later being promoted to the organization's president position. Rowling was a single parent for most of the 1990's following the divorce from her first husband, which ultimately led to her support of this organization.</li>
+                  <li><a href="https://wearelumos.org/" target="_blank">Lumos</a>- Rowling founded Lumos in 2005, named after the light-giving spell from her Harry Potter books. The charity's mission is to eradicate the use of orphanage institutions by the year 2050 by reuniting institutionalized children with their families or by finding the children loving homes.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+    <!-- Footer -->
+    
+        <div class="container-fluid text-center span12" id="footer">
+          <h4>For more information on JK Rowling and her work, visit her <a href="https://www.jkrowling.com/" target="_blank">website</a> or <a href="https://en.wikipedia.org/wiki/J._K._Rowling" target="_blank">Wikipedia</a> page.</h4>
+        </div>
+          
+      
+  </body>
+</html>
