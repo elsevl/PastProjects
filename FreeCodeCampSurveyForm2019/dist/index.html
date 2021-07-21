@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Free Code Camp survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<! DOCTYPE HTML>
+<html>
+  
+<head>
+  <title>Free Code Camp survey form project</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+<main>
+
+<div class="survey" id="survey-form">
+  <div class="survey-header">
+  <div id="survey-title"><h1 id="title">Jones Lexus Dealership of Chicago appointment request</h1></div>
+  <div id="survey-description"><p id="description">Use the form below to request a time to test drive your next car</p></div>
+  </div>
+  
+    
+   <div class="survey-body">
+  <form id="survey-form">
+          
+    <div class="question">
+      <div class="title"><label id="name-label">* Name</label></div>
+      <div class="answer">
+        <input type="text" id="name" placeholder="Enter Your Name" required></div>
+      </div>
+      
+    <div class="question">
+      <div class="title"><label id="salutation-title">Salutation</label></div>
+      <div class="answer">
+        <input type="radio" name="salutation" value="Mr."><label>Mr.</label>
+        <input type="radio" name="salutation" value="Mrs."><label>Mrs.</label>
+        <input type="radio" name="salutation" value="Ms."><label>Ms.</label>
+        <input type="radio" name="salutation" value="Dr."><label>Dr.</label>
+      </div>
+      </div>
+     
+    <div class="question">
+      <div class="title"><label id="email-label">* Email</label></div>
+      <div class="answer">
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+      </div>
+      </div>
+    
+    <div class="question">
+      <div class="title"><label id="number-label">* Phone Number</label></div>
+      <div class="answer">
+        <input type="tel" minlength="10" maxlength="10" placeholder="(312) 123-4567" id="number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+      </div>
+    
+     <div class="question">
+       <div class="title"><label id="day-title">* Choose Your Preferred Day- Choose one or more</label></div>
+       <div class="answer">
+         <input type="checkbox" value="Monday"><label>Monday</label>
+         <input type="checkbox" value="Tuesday"><label>Tuesday</label>
+         <input type="checkbox" value="Wednesday"><label>Wednesday</label>
+         <input type="checkbox" value="Thursday"><label>Thursday</label>
+         <input type="checkbox" value="Friday"><label>Friday</label>
+         <input type="checkbox" value="Saturday"><label>Saturday</label>
+         <input type="checkbox" value="Sunday"><label>Sunday</label>
+       </div>
+       </div>
+    
+     <div class="question">
+       <div class="title"><label id="time-title">* Choose your preferred appointment time</label></div>
+       <div class="answer">
+      <select id="dropdown" required>
+      <option value="">Please choose a time</option>
+      <option value="morning">Morning</option>
+      <option value="afternoon">Afternoon</option>
+      <option value="evening">Evening</option>
+    </select>
+       </div>
+         </div>
+   
+    <div class="question">
+      <div class="title"><label id="car-title">Choose Your Preferred Lexus Model</label></div>
+      <div class="answer">
+        <input type="checkbox" value="sedan"><label>Sedan</label>
+        <input type="checkbox" value="SUV"><label>SUV</label>
+        <input type="checkbox" value="coupe"><label>Coupe</label>
+        <input type="checkbox" value="hybrid"><label>Hybrid</label>
+        <input type="checkbox" value="performance"><label>Performance</label>
+      </div>
+         </div>
+  
+     <div class="question">
+       <div class="title"><label id="comments-title">Comments</label></div>
+       <div class="answer" id="text-area"><textarea class="answer" wrap="off" rows="6" cols="20"></textarea></div>
+         </div>
+    
+    </form> 
+    </div> <!-- end of survey form -->
+  
+    <div class="button">
+      <button type="submit" id="submit">Submit</button>
+  </div>    
+    
+  </div>
+  
+  </main>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
